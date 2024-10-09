@@ -220,9 +220,135 @@ a{
     font-style: normal;
     font-weight: 700;
     line-height: 1.22;
-    padding-right: 8px;
-    
+    padding-right: 8px; 
 }
+/* popular */
+.popular{
+    padding: 200px 0;
+}
+.popular-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.popular-header .content{
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.76px;
+}
+.popular-header .desc{
+    width: 458px;
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67;
+    margin-top: 16px;
+}
+.popular-header .ico{
+    display: flex;
+    gap:17px
+}
+.popular-header .ico .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #FFB900;
+
+}
+.popular-header .ico .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FFB900;
+}
+.popular .block{
+    display: flex;
+    justify-content: space-between;
+}
+.block-items{
+    width: 31.6%;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.popular .block-items .content{
+    padding: 10px 22px;
+}
+.popular .block-items .header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .block-items .header-block .title{
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+    margin-bottom: 6px;
+}
+.popular .block-items .header-block span{
+    color: #FEA31B;
+    font-weight: 400;
+}
+.popular .block-items .desc{
+    color: #5F5B53;
+    line-height: 1.86;
+    margin-bottom: 12px;
+    font-size: 1.4rem;;
+    font-weight: 400;
+
+}
+.popular .block-items .book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .block-items .book span{
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67
+}
+.popular .block-items .book .btn-book{
+    padding: 12px 24px;
+    border-radius: 25px;
+    background: #FFB900;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85
+}
+
+.block-items .block-img{
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+.booking{
+    border-radius: 12px;
+    border: 1px solid #E2DFDA;
+    background: #FFF;
+}
+.popular .block-items.booking{
+    box-shadow: none;
+}
+.popular .block-items.booking .btn-book {
+    background: #171100;
+}
+
+
 
 
 
