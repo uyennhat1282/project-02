@@ -353,3 +353,71 @@ a {
 .popular .block-items .book .btn-book:hover {
     background: #fea31b;
 }
+/* feedback */
+.feedback {
+    background: #2e2100;
+}
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+.feedback .content {
+    flex-shrink: 0;
+    width: 100%;
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+    /* thử lướt qa */
+    /* transform: translateX(-100%);
+    transition: all ease .3s;
+ */
+}
+.feedback .user {
+    width: 13.6%;
+}
+.feedback .quote {
+    width: 66%;
+}
+.feedback .user-img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+.feedback .user h4 {
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.42;
+    margin-bottom: 4px;
+}
+.feedback .user .job {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+.quote .desc {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53;
+    padding-left: 30px;
+}
+.dots {
+    margin-top: 28px;
+}
+.dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #634700;
+}
+.at {
+    background-color: #ffb900;
+}
