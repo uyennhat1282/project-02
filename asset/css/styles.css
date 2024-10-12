@@ -209,7 +209,7 @@ a {
     cursor: pointer;
 }
 
-.hero .content-block .cta-group .Watch-video span {
+.hero .content-block .cta-group .Watch-video {
     color: #171100;
     font-size: 1.8rem;
     font-style: normal;
@@ -612,4 +612,113 @@ a {
 .blocks-blog {
     display: flex;
     overflow: hidden;
+}
+/* footer */
+.footer {
+    background: #2e2100;
+    padding: 96px 0 28px 0;
+}
+.footer .list-column {
+    display: flex;
+    position: relative;
+}
+.footer .list-column::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #59554b;
+    position: absolute;
+    bottom: -38px;
+}
+
+.footer .column-contact {
+    width: 35%;
+}
+.footer .column-contact .desc {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    padding: 18px 0;
+    width: 267px;
+}
+.footer .column-contact .social a {
+    display: inline-block;
+    padding: 0 5px;
+}
+.footer .column-company {
+    width: 21.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+}
+.footer .column-address::before,
+.footer .column-support::before,
+.footer .column-company::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background: #59554b;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.footer .column-support a:first-child,
+.footer .column-address a:first-child,
+.footer .column-company a:first-child {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    display: inline-block;
+    margin-bottom: 31px;
+}
+.footer .column-support a,
+.footer .column-address a,
+.footer .column-company a {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer .column-support {
+    width: 21.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+}
+.footer .column-address {
+    width: 21.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+}
+.footer .column-address a {
+    text-align: unset;
+}
+.footer .column-address a span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85;
+    color: #fff;
+}
+.footer .copy {
+    display: block;
+    margin-top: 67px;
+    margin-inline: auto;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
 }
