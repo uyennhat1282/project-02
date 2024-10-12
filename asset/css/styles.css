@@ -525,8 +525,8 @@ a {
     justify-content: space-between;
     width: 100%;
     flex-shrink: 0;
-    transform: translateX(-100%);
-    transition: all ease 0.3s;
+    /* transform: translateX(-100%);
+    transition: all ease 0.3s; */
 }
 .blog-content .block .blog-items {
     width: 31.6%;
@@ -608,6 +608,7 @@ a {
     justify-content: center;
     margin-top: 38px;
     gap: 5px;
+    cursor: pointer;
 }
 .blocks-blog {
     display: flex;
